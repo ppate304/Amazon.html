@@ -1,0 +1,62 @@
+.wrapper {
+    border-style: groove;
+   height: 30px;
+   width: 400px; 
+   display: flex; 
+   justify-content: flex-start;
+   align-items: flex-start ;
+   position: relative ;
+   }
+   .parent {
+   margin: auto;
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+   border-style: groove;
+   width: 500px;
+   height: 500px;
+   flex-direction: column;
+   justify-content: space-around; 
+   }
+   
+   .wrappertwo {
+   border-style: groove;
+   height: 30px;
+   width: 400px; 
+   display: flex; 
+   justify-content: flex-start;
+   align-items: center ; 
+   position: relative;
+   }
+   
+   .wrapperthree {
+   border-style: groove;
+   height: 30px;
+   width: 400px; 
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   background-color: orange; }
+
+.email { 
+display: flex; 
+justify-content: flex-start; 
+align-items: flex-end;
+position: absolute;
+top: -50px;
+   }
+
+.forgot { 
+    display: flex;  
+    align-items: flex-end;
+    position: absolute;
+    top: -50px;
+    right: 5px;
+    }
+
+.help {
+display: flex;
+justify-content:flex-start;
+left: 50px;
+}       
